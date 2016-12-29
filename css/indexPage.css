@@ -1,0 +1,83 @@
+body {
+	background: #666 url(../images/newMexico-1.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	color: #fff;
+	}
+.introductionMain {
+		width: 100%;
+		margin: 1.5em auto;
+		padding: 5px 10px;
+		font-size: 100%;
+		/* background-color: rgba(0, 0, 0, .5); */
+		color: #272727;
+		/* border-radius: 5px; */
+	}
+.latestContainer {
+	width: 100%;
+	margin: 1.5em auto;
+	padding: 5px 10px;
+	font-size: 80%;
+	background-color: rgba(0, 0, 0, .8); 
+	border-radius: 5px;
+}
+.latestContainer a {
+	color: #fff;
+	font-weight: bold;
+}
+.latestContainer a:hover {
+	text-decoration: underline;
+}
+.services {
+	width: 100%;
+	margin: 1.5em auto;
+	padding: 5px 10px;
+	font-size: 80%;
+	background-color: rgba(0, 0, 0, .8); 
+	color: #fff;
+	border-radius: 5px;
+}
+
+.services ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.services li {
+	list-style-type: none;
+}
+.services lh {
+	font-weight: bold;
+}
+
+textarea, input {
+	width: 100%;
+	margin: 0 0 .5em 0;
+}
+form label {
+	margin: 0 0 -2px 0;
+}
+.emailSendBtn {
+	/* width: 50%; */
+	float: right;
+}
+input#submit_button {
+	height: 50px;
+	background-color: #4f628e;
+	border: none;
+	color: #ffffff;
+}
+input#submit_button:hover {
+	/* width: 50%; */
+	background-color: #2e4272;
+	border: none;
+	color: #ffffff;
+}
+input#submit_button:active {
+	/* width: 50%; */
+	background-color: #7887ab;
+	border: none;
+	color: #ffffff;
+}

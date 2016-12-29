@@ -1,0 +1,35 @@
+body {
+	background: #666 url(../images/mirrorLake_Yosemite_web.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	}
+	
+.subNav ul {
+	margin:0;
+	padding: 0;
+}
+.subNav li {
+	list-style-type: none;
+	display: inline;
+}
+.whatIdid {
+		float: right;
+	}
+.rightColImage {
+	text-align: center;
+}
+
+
+
+
+
+
+
+	/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) { 
+	.whatIdid {
+ 		float: left;
+	 	}
+ }
